@@ -6,7 +6,7 @@
 /*   By: jocorona <jocorona@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/20 22:43:08 by jocorona          #+#    #+#             */
-/*   Updated: 2022/02/20 23:59:47 by jocorona         ###   ########.fr       */
+/*   Updated: 2022/02/21 15:25:36 by jocorona         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # include <stdlib.h>
 # include <unistd.h>
 
-size_t			ft_strlen(char *str);
+size_t			ft_strlen(const char *s);
 char			*ft_strchr(char *s, int c);
 char			*ft_strjoin(char *s1, char *s2);
 char			*get_next_line(int fd);
